@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* nav-container */
+#nav-container{
+    border-bottom: 1px solid #eeeeee;
+}
+
+#nav-wrapper{
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+#nav-wrapper > div{
+    display: inline-block;
+    float: left;
+}
+
+#nav-logo{
+    margin-right: 20px;
+}
+
+#nav-logo > img{
+    width: 100px;
+    height: 100px;
+}
+
+#nav-text-area > h2{
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+/* content-container */
+#content-container{
+    padding-top: 40px;
+}
+
+/* footer */
+.page-footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    background-color: #fc391d;
+}
